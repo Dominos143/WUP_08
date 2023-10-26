@@ -37,3 +37,17 @@ plot(LENGTH~AGE,data=bears)
 abline(age)
 summary.lm(age)
 ```
+
+```{r}
+width <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(width)
+summary.lm(width)
+```
+
+```{r}
+weight <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(weight)
+summary.lm(weight)
+```
