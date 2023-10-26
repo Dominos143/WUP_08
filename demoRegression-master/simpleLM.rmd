@@ -51,3 +51,11 @@ plot(LENGTH~WEIGHT,data=bears)
 abline(weight)
 summary.lm(weight)
 ```
+
+
+```{r}
+chest <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(chest)
+summary.lm(chest)
+```
